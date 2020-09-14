@@ -1,3 +1,12 @@
+var icons = {np:"https://gamepress.gg/grandorder/sites/grandorder/files/styles/45x45/public/2017-07/Startnp.png",
+            crit:"https://gamepress.gg/grandorder/sites/grandorder/files/styles/45x45/public/2017-07/Critdmg.png",
+            arts:"https://gamepress.gg/grandorder/sites/grandorder/files/styles/45x45/public/2017-07/Artsup.png",
+            def:"https://gamepress.gg/grandorder/sites/grandorder/files/styles/45x45/public/2017-07/Shieldup.png",
+            atk:"https://gamepress.gg/randorder/sites/grandorder/files/styles/45x45/public/2017-07/Dmg_up.png",
+            guts:"https://gamepress.gg/grandorder/sites/grandorder/files/styles/45x45/public/2017-07/Guts.png",
+            divinity:"https://gamepress.gg/grandorder/sites/grandorder/files/styles/45x45/public/2017-07/Divinity.png",
+            np_gen:"https://gamepress.gg/grandorder/sites/grandorder/files/styles/45x45/public/2017-07/Npacqui.png"}
+
 var servants = {}
 servants["sieg"] = {attack: 8394,class:"caster",tier:4,q:1,a:2,b:2,qh:3,ah:2,np_perhit:.78,np_type:"arts",np_hits:3,np_dmg:[450,600,675,712.5,750],np_effects:[["def_down",3,20]],
                     skills: [["arts",6.5]],
